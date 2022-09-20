@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+}
+body{
+    background-color: rgb(80, 78, 78);
+}
+.cuerpo_calculadora{
+    background-color: #2e2e2e;
+    width: 260px;
+    height: 460px;
+    margin: 0 auto;
+    border:  solid black 3px;
+}
+.box_pantalla{
+    display: flex;
+    margin-left: 15px;
+}
+.pantalla{
+margin-top: 15px;
+width: 230px;
+height: 50px;
+border: solid black 1px;
+background-color: #5c5c5c;
+color: white;
+font-size: 35px;
+overflow: hidden;
+}
+
+.botones{
+    width: 70px;
+    height: 55px;
+    margin: 5px 0px 5px 10px;
+    border: solid black 2px;
+    background-color: #1a1a1a;
+    color:  white;
+    font-size: 20px;
+}
+
+.igual{
+    background-color: red;
+}
+.mas{
+    background-color: #3a3939;
+}
+.menos{
+    background-color: #3a3939;
+}
+.x{
+    background-color: #3a3939;
+}
+.division{
+background-color: #3a3939;
+}
+.reset{
+    width: 240px;
+}
